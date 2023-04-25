@@ -1,7 +1,7 @@
 import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:mvvm_sample/data/remote/api_response.dart';
 import 'package:mvvm_sample/modules/users/users_model.dart';
-import 'package:mvvm_sample/modules/user_repo/user_repo_impl.dart';
+import 'package:mvvm_sample/modules/users/user_repo/user_repo_impl.dart';
 
 import '../../main.dart';
 import '../../utils/dialog_service/dialog_service.dart';
