@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mvvm_sample/utils/bindings/user_binding.dart';
 import 'package:mvvm_sample/utils/dialog_service/dialog_service.dart';
-import 'package:mvvm_sample/view/users_view/users_view.dart';
+import 'package:mvvm_sample/modules/users/users_view.dart';
 import 'package:get/get.dart';
 import 'package:get_it/get_it.dart';
 
