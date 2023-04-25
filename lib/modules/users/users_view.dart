@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mvvm_sample/view_model/users_viewmodel/users_viewmodel.dart';
+import 'package:mvvm_sample/modules/users/users_viewmodel.dart';
 
 // ignore: use_key_in_widget_constructors
 class UserView extends StatelessWidget {
   //final c = Get.put(UsersVM());
   @override
   Widget build(BuildContext context) {
-    return CupertinoApp(
+    return MaterialApp(
       home: SafeArea(child: Scaffold(body: GetBuilder<UsersVM>(
         builder: (controller) {
           return Row(

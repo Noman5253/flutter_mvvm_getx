@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mvvm_sample/models/users.dart';
+import 'package:mvvm_sample/modules/users/users_model.dart';
 
 class NavigationService {
   final GlobalKey<NavigatorState> navigatoryKey = GlobalKey<NavigatorState>();

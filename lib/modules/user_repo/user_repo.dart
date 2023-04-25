@@ -1,4 +1,4 @@
-import 'package:mvvm_sample/models/users.dart';
+import 'package:mvvm_sample/modules/users/users_model.dart';
 
 abstract class UserRepo {
   Future<Users?> getUsersFromRepo();

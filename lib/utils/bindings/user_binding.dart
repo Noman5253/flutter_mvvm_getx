@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:mvvm_sample/view_model/users_viewmodel/users_viewmodel.dart';
+import 'package:mvvm_sample/modules/users/users_viewmodel.dart';
 
 class UsersBinding extends Bindings {
   @override
